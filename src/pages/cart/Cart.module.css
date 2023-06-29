@@ -1,0 +1,175 @@
+.mainCart{
+    padding: 80px;
+    padding-top: 150px;
+    min-height: 30vh;
+    background: url(./parallex2.jpg) center / cover fixed;
+}
+
+.cartpage{
+    padding: 40px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 27vh;
+    backdrop-filter: blur(2px);
+}
+
+.cartpage .head{
+    color: orange;
+    margin: 0px;
+}
+
+.cartItem{
+    background-color: black;
+    color: orange;
+    display: flex;
+    width: 50%;
+    height: 150px;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.cartImg{
+    max-width: 200px;
+    height: 200px;
+}
+
+.cartImg > img{
+    display: flex;
+    width: 200px;
+    height: 150px;
+    object-fit:cover;
+}
+
+.cartDetails{
+    padding: 10px 20px;
+    width: 150px;
+}
+
+.cartBtn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.cartBtn input{
+    width: 50px;
+    border: none;
+}
+
+.cartBtn button{
+    min-width: 80px;
+    padding: 10px 15px;
+    border: none;
+    background-color: red;
+    font-size: 0.8rem;
+}
+
+.total{
+    color:orange;
+    font-size: large;
+    font-weight: bold;
+}
+
+.empty{
+    color: red;
+}
+
+.con , .place{
+    padding: 12px;
+    font-size: medium;
+    margin: 25px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.con{
+    background-color: black;
+    color: gold;  
+}
+
+.con:hover{
+    background-color: #171717;
+    color: aliceblue;
+}
+
+.place{
+    background-color: gold;
+    color: black;
+    border: 2px solid gold;
+}
+
+.place:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+@media screen and (max-width : 450px) {
+    .mainCart{
+        padding: 175px 30px 30px 30px;
+    }
+
+    .cartpage{
+        padding: 35px 25px;
+    }
+
+    .head, .empty{
+        font-size: 1.5rem;
+    }
+
+
+    .cartItem{
+        width: 100%;
+        height: 100px;
+        padding-bottom: 20px;
+    }
+
+    .cartImg{
+        max-width: 100px;
+        min-height: 100px;
+    }
+    
+    .cartImg > img{
+        display: flex;
+        max-width: 100px;
+        max-height: 115px;
+        object-fit: cover;
+    }
+
+    .cartDetails{
+        padding: 5px 10px;
+        width: 70px;
+    }
+
+    .cartBtn{
+        padding: 20px;
+    }
+    
+    .cartBtn input{
+        width: 25px;
+    }
+
+    .cartBtn button{
+        min-width: 20px;
+        padding: 5px 10px;
+        font-size: 0.75rem;
+    }
+
+    .cartDetails{
+        font-size: 0.7rem;
+    }
+    
+    .total{
+        font-size: 1rem;
+    }
+
+    .con , .place{
+        padding: 10px;
+        font-size: 0.75rem;
+        margin: 10px;
+    }
+    
+}
+

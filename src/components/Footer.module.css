@@ -1,0 +1,63 @@
+footer{
+    display: flex;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: gold;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer nav h5{
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 5px 0px;
+}
+footer nav a {
+    text-decoration: none;
+    color: #171717;
+    font-weight: 300px;
+    padding: 0px 17px;
+}
+
+footer nav p {
+    padding-left: 20px;
+    color: #171717;
+    font-weight: 300px;
+}
+footer nav img{
+    padding: 5px;
+}
+
+.lic{
+    text-align: center;
+    background-color: #171717;
+    color: gold;
+    height: 40px;
+    font-size: large;
+    padding-top: 10px;
+}
+
+::-webkit-scrollbar{
+    width: 20px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #171717;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: gold ;
+}
+
+@media screen and (max-width: 450px) {
+    footer{
+        flex-direction: column;
+        font-size: 1rem;
+    }
+
+    footer nav{
+        box-sizing: border-box;
+        padding: 10px 0px;
+    }
+}
+
