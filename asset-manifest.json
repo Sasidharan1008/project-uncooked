@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-uncooked/static/css/main.3bf00fec.css",
-    "main.js": "/project-uncooked/static/js/main.ff734542.js",
+    "main.css": "/project-uncooked/static/css/main.a1c2363b.css",
+    "main.js": "/project-uncooked/static/js/main.7d20b12c.js",
     "static/media/parallex2.jpg": "/project-uncooked/static/media/parallex2.70d558440d3af9ee889a.jpg",
     "static/media/parallex.jpg": "/project-uncooked/static/media/parallex.ce14e59b35528e86d17c.jpg",
     "static/media/Pas Mix.jpg": "/project-uncooked/static/media/Pas Mix.cb12910cb8f40d1db5d1.jpg",
@@ -41,11 +41,11 @@
     "static/media/twitter.png": "/project-uncooked/static/media/twitter.802534bf2678c3afb41d.png",
     "static/media/facebook.png": "/project-uncooked/static/media/facebook.795fce8e464693d7346d.png",
     "index.html": "/project-uncooked/index.html",
-    "main.3bf00fec.css.map": "/project-uncooked/static/css/main.3bf00fec.css.map",
-    "main.ff734542.js.map": "/project-uncooked/static/js/main.ff734542.js.map"
+    "main.a1c2363b.css.map": "/project-uncooked/static/css/main.a1c2363b.css.map",
+    "main.7d20b12c.js.map": "/project-uncooked/static/js/main.7d20b12c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bf00fec.css",
-    "static/js/main.ff734542.js"
+    "static/css/main.a1c2363b.css",
+    "static/js/main.7d20b12c.js"
   ]
 }
