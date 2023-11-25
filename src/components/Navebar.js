@@ -10,7 +10,6 @@ import { useContext } from 'react';
 function Navebar() {
   
   const { cartItems } = useContext(CartContext);
-  const [mobilemenu , setMenu] = React.useState(false);
 
   
   return (

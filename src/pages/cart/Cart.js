@@ -4,11 +4,8 @@ import { useContext } from 'react';
 import styles from "./Cart.module.css";
 import { Link } from 'react-router-dom';
 
-
 function Cart() {
   const { cartItems, setCartItems, setPrice } = useContext(CartContext);
-
-  
 
   const calculateTotalPrice = () => {
     let totalPrice = 0;

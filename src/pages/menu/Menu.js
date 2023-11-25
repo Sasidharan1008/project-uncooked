@@ -10,8 +10,6 @@ function Menu() {
   const [search,setSearch] = React.useState("");
   const [searchData,setSearchData] = React.useState(Products);
 
-
-
   useEffect(() => {
     setSearchData(Products.filter(product => {
       if (type === "All"){
@@ -24,11 +22,8 @@ function Menu() {
 
   useEffect(() => {
     setSearchData(datas.filter(item => item.name.toLowerCase().startsWith(search.toLowerCase())));
-    console.log(searchData);
   }, [search]);
   
-
-
   return (
     <div className={styles.menus}>
       <div className={styles.btnGroup}>
